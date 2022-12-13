@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shakit</title>
+    <script src="https://kit.fontawesome.com/05d3201823.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/mainstyle.css">
+</head>
+<body>
+    <div id="wrap">
+        <!-- 헤더영역 -->
+        <header id="header">
+            <h1><a href="./index.html">Shakit</a></h1>
+            <ul id="head_list">
+                <li><a href="./sub1.html">칵테일 키트</a></li>
+                <li><a href="#">칵테일 재료</a></li>
+                <li><a href="#">칵테일 용품</a></li>
+                <li><a href="#">이벤트</a></li>
+            </ul>
+        <a href="#" class="btn-open-popup">Login</a>
+        <a href="#"><i class="fa fa-bitbucket"></i></a>
+        </header>
+        <!-- 로그인 모달창 -->
+        <div class="modal">
+            <div class="modal_body">
+                <h1>Login Form</h1>                
+                    <form action="" class="form-control">
+                        <label for="username">Username</label><br>
+                        <input type="text" id="username" placeholder="Enter username"><br>
+                        <label for="password">Password</label><br>
+                        <input type="password" id="password" placeholder="Enter password"><br>
+                        <label for="email">Email</label><br>
+                        <input type="email" id="email" placeholder="Enter email">
+                        <button type="submit" id="loginBtn">Submit</button>
+                    </form>
+            </div>
+        </div>
+        <div>
+        <!-- 메인이미지 영역 -->
+        <section id="main_img">
+            <div class="slide">
+                <ul class="slide__list">
+                    <li class="slide__item">
+                    <img class="slide__image" src="./IMG/boxed-water-is-better-Dvrbad-8YeM-unsplash.jpeg" alt="" />
+                    </li>
+                    <li class="slide__item">
+                    <img class="slide__image" src="./IMG/image.jpg" alt="" />
+                    </li>
+                    <li class="slide__item">
+                    <img class="slide__image" src="./IMG/image2.jpg" alt="" />
+                    </li>
+                    <li class="slide__item">
+                    <img class="slide__image" src="./IMG/image1.jpg" alt="" />
+                    </li>
+                </ul>
+                <div class="buttons"></div>
+                <div class="paginations"></div>
+            </div>
+        </section>
+        <!-- 칵테일 컨텐츠 -->
+        <section id="cocktail">
+            <div id="ct_head">
+                <h1>Cocktail</h1>
+                <p>엄선된 재료와 검증된 전문가가 직접 개발한 다양한 종류의 칵테일.</br>
+                    전문가의 칵테일 레시피를 키트 하나로 손쉽게 즐겨보세요.
+                </p>
+            </div>
+            <div id="cocktail_list">
+                <div class="list_flex1">
+                    <div>
+                        <img src="./IMG/image9.jpg" alt="" class="opacity_box">
+                        <h2>준벅</h2>
+                        <p>달콤한 멜론과 코코넛향이 어우러진 트로피컬 칵테일</p>
+                    </div>
+                    <div>
+                        <img src="./IMG/image7.png" alt="" class="opacity_box">
+                        <h2>보드카 OH! 브라더스</h2>
+                        <p>오렌지,토닉 베이스의 다채로운 네가지 맛 칵테일!</p>
+                    </div>
+                    <div>
+                        <img src="./IMG/image12.png" alt="" class="opacity_box">
+                        <h2>피치 크러쉬</h2>
+                        <p>복숭아 본연의 맛과 오렌지 그리고 크렌베리의<br> 새콤한 과일 맛이 조화로운 칵테일</p>
+                    </div>
+                </div>
+                <div class="list_flex2">
+                    <div>
+                        <img src="./IMG/image6.png" alt="" class="opacity_box">
+                        <h2>서피 로맨스</h2>
+                        <p>크렌베리,멜론,카시스의 화려한 레이어 층으로<br> 어우러진 칵테일</p>
+                    </div>
+                    <div>
+                        <img src="./IMG/image4.png" alt="" class="opacity_box">
+                        <h2>봄이오나봄</h2>
+                        <p>향긋한 벚꽃향과 브이스피릿의 조화! 봄에만<br> 만날 수 있는 벚꽃을 집에서도 느껴보세요</p>
+                    </div>
+                    <div>
+                        <img src="./IMG/image5.png" alt="" class="opacity_box">
+                        <h2>블루밍</h2>
+                        <p>시원한 비주얼에 오렌지향이 나는 달콤한 블루<br> 큐라소 칵테일</p>
+                    </div>
+                </div>
+                <a href="#">더보기</a>
+            </div>
+        </section>
+        <!-- 칵테일 소개 베너 -->
+        <section id="banner">
+            <!-- backgroundIMG -->
+        </section>
+        <img class="banner_img" src="./IMG/image3.png" alt="">
+        <!-- iframe section -->
+        <section id="s_together">
+            <div>
+                <h1>Shakit together!</h1>
+                <p>쉐이킷 채널에서 집에서도 쉽게 즐길 수 있는<br> 다양한 칵테일 꿀팁을 공유합니다.</p>
+            </div>
+            <div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/3bCDrSAYXto" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/LXmk8iwVkpw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-facebook-f"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+            </div>
+        </section>
+        <!-- search cocktail -->
+        <section id="search">
+            <div>
+                <h1>Search Cocktail!</h1>
+                <p>여라가지 재료를 골라 본인 취향에 꼭 맞는<br> 칵테일을 찾아드립니다.</p>
+                <a href="#">Search</a>
+            </div>
+            <img src="./IMG/boxed-water-is-better-Dvrbad-8YeM-unsplash.jpg" alt="">
+        </section>
+        <!-- footer -->
+        <footer id="footer">
+            <div>
+                <h1>CONTACT US</h1>
+                <p>궁금한 사항을 남겨주시면 빠르게 답변드리겠습니다.</p>
+                <a href="#">문의하기</a>
+            </div>
+            <div>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-facebook-f"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="./JS/app.js"></script>
+    <script src="./JS/slide.js"></script>
+</body>
+</html>
